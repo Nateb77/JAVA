@@ -16,6 +16,9 @@ console.log(fortune[fortune.length-1]);
 fortune.pop();
 console.log(fortune[fortune.length-1]);
 function printFirstAndThird(arr){
-    console.log(arr[0]);
-    console.log(arr[2]);
+    console.log("1st element:" + arr[0]);
+    console.log("3rd element:" + arr[2]);
 }
+
+printFirstAndThird(favoriteMovie);
+printFirstAndThird(superLong);
